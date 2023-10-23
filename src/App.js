@@ -1,12 +1,16 @@
 import "./App.css";
 import ButtonComponent from "./components/ButtonComponent";
+import ImageComponent from "./components/ImageComponent";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <ButtonComponent buttonText="CLICCAMI" />
-        <imageComponent imageSrc="https://picsum.photo/200" />
+        <ImageComponent
+          imageSrc="https://loremflickr.com/640/360"
+          imageAlt="photo"
+        />
       </header>
     </div>
   );
